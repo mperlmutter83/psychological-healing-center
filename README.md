@@ -58,11 +58,14 @@ psychologicalhealingcenter.com/
 
 ## 🚀 Deployment
 
-### Option 1: Static Hosting (Recommended)
-Upload to any of these services:
+**Current Deployments:**
+- **Vercel**: https://psychologicalhealingcenter-lewslnmhx.vercel.app
+- **GitHub Pages**: https://mperlmutter83.github.io/psychological-healing-center/
+- **Repository**: https://github.com/mperlmutter83/psychological-healing-center
+
+### Other Hosting Options
+You can also deploy to:
 - **Netlify** (drag & drop)
-- **Vercel** (GitHub integration)
-- **GitHub Pages** (free hosting)
 - **Cloudflare Pages** (fast CDN)
 
 ### Option 2: Traditional Hosting
