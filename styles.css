@@ -9,9 +9,11 @@
 
 :root {
     /* Color Palette - Matching Original Site */
-    --primary-color: #2EA3F2;
-    --primary-dark: #0c89d3;
-    --primary-light: #64b9f5;
+    --primary-color: #00A896;
+    --primary-dark: #008577;
+    --primary-light: #33BFB3;
+    --accent-color: #B8D433;
+    --accent-dark: #9EB82A;
     --text-dark: #333333;
     --text-light: #666666;
     --text-muted: rgba(0, 0, 0, 0.6);
@@ -192,7 +194,7 @@ a {
    Hero Section
    ============================================ */
 .hero {
-    background: linear-gradient(180deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.75) 100%), url('images/hero-background.jpg');
+    background: linear-gradient(180deg, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.6) 100%), url('images/dr-judy-hero.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -207,13 +209,15 @@ a {
 }
 
 .hero-subtitle {
-    font-size: 20px;
-    font-family: var(--font-serif);
-    font-style: italic;
+    font-size: 18px;
+    font-family: var(--font-sans);
+    font-style: normal;
     margin-bottom: 20px;
-    color: white;
-    font-weight: 400;
-    text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+    color: var(--accent-color);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.5);
 }
 
 .hero-title {
@@ -221,17 +225,17 @@ a {
     font-family: var(--font-serif);
     margin-bottom: 20px;
     line-height: 1.2;
-    color: white;
+    color: var(--primary-color);
     font-weight: 700;
-    text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+    text-shadow: 0 2px 4px rgba(0,0,0,0.5);
 }
 
 .hero-description {
     font-size: 20px;
     margin-bottom: 40px;
     font-weight: 600;
-    color: white;
-    text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+    color: var(--accent-color);
+    text-shadow: 0 2px 4px rgba(0,0,0,0.5);
 }
 
 .hero-cta {
