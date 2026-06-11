@@ -192,9 +192,12 @@ a {
    Hero Section
    ============================================ */
 .hero {
-    background: var(--bg-light);
-    color: var(--text-dark);
-    padding: 80px 0;
+    background: linear-gradient(180deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.75) 100%), url('images/hero-background.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 120px 0;
     text-align: center;
 }
 
@@ -204,28 +207,31 @@ a {
 }
 
 .hero-subtitle {
-    font-size: 18px;
+    font-size: 20px;
     font-family: var(--font-serif);
     font-style: italic;
     margin-bottom: 20px;
-    color: var(--primary-color);
+    color: white;
     font-weight: 400;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.3);
 }
 
 .hero-title {
-    font-size: 42px;
+    font-size: 48px;
     font-family: var(--font-serif);
     margin-bottom: 20px;
     line-height: 1.2;
-    color: var(--text-dark);
+    color: white;
     font-weight: 700;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.3);
 }
 
 .hero-description {
     font-size: 20px;
     margin-bottom: 40px;
     font-weight: 600;
-    color: var(--text-dark);
+    color: white;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.3);
 }
 
 .hero-cta {
